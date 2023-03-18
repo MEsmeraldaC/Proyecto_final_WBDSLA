@@ -74,7 +74,7 @@ from requests.adapters  import HTTPAdapter, Retry
 
 Se busco en el NCBI-Genome utilizando el filtro de genoma completo a *Pseudomonas aeruginosa*, que se sabe que es un organismo ambiental Gram-negativo común. Puede ser un factor patógeno significativo de infecciones graves en humanos, especialmente en pacientes con fibrosis quística. Debido a su **resistencia natural** a los antibióticos y la capacidad de formar biopelículas, la infección por este patógeno puede causar graves problemas terapéuticos. Por lo tanto se buscaran genes asociados a la resistencia antimicrobiana de esta especie. 
 
-Para este caso se utilizó el ensamble ASM76324v3, y se buscó genes de resistencia antibioticos en el cromosoma con número de acceso CP021380.2.
+Para este caso se utilizó el ensamble **ASM76324v3**, y se buscó genes de resistencia antibioticos en el cromosoma con número de acceso **CP021380.2**.
 
 Con el siguiente código se puede descargar el genoma en formato genbank.
 """
@@ -114,7 +114,7 @@ with open(gff_file, "w") as orf_gene:
 
 Se utilizó la API de UniProt para poder descargar los genes de referencia de la resistencia a antibioticos. Para ello se utilizó request para mantener todo nuestro código en el notebook de python. Asi como también con el siguiente código podemos descargar secuencias de UniProt en el objeto uniprot_ref_seqs. 
 
-En el query se incluye la seccion de de **reviewed** oara aumentar la confiabilidad de los resultados.
+En el query se incluye la seccion de de **reviewed** para aumentar la confiabilidad de los resultados.
 """
 
 uniprot_api_url  = "https://rest.uniprot.org/uniprotkb/stream"
@@ -281,7 +281,7 @@ fig = circos.plotfig().set_figwidth(5)
 
 De igual forma se realizó una examinación más exhaustiva, con seadborn con una  serie de swarmplots en donde podemos comparar las posiciones de los genes en el dataframe completo, separando por categorias ("genes candidatos" vs "genes no candidatos") y por cadena ("+" vs "-").
 
-Con esta aproximación podemos identificar un par de operones enriquecido en genes candidatos, siendo el operón ubicado en la cadena negativa entre 0.6 Mbp y 0.8 Mbp
+
 """
 
 num_bins = 25
