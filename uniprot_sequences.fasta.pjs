@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "uniprot_sequences.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "uniprot_sequences.fasta",
+  "number-of-letters": 1012806,
+  "number-of-sequences": 2714,
+  "last-updated": "2023-03-21T19:35:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1644763,
+  "bytes-to-cache": 1037353,
+  "files": [
+    "uniprot_sequences.fasta.pdb",
+    "uniprot_sequences.fasta.phr",
+    "uniprot_sequences.fasta.pin",
+    "uniprot_sequences.fasta.pot",
+    "uniprot_sequences.fasta.psq",
+    "uniprot_sequences.fasta.ptf",
+    "uniprot_sequences.fasta.pto"
+  ]
+}

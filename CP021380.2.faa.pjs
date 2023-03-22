@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "CP021380.2.faa",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "CP021380.2.faa",
+  "number-of-letters": 2036886,
+  "number-of-sequences": 6324,
+  "last-updated": "2023-03-21T19:35:00",
+  "number-of-volumes": 1,
+  "bytes-total": 3464903,
+  "bytes-to-cache": 2093907,
+  "files": [
+    "CP021380.2.faa.pdb",
+    "CP021380.2.faa.phr",
+    "CP021380.2.faa.pin",
+    "CP021380.2.faa.pot",
+    "CP021380.2.faa.psq",
+    "CP021380.2.faa.ptf",
+    "CP021380.2.faa.pto"
+  ]
+}
